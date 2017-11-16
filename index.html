@@ -1,0 +1,134 @@
+<html>
+<head>
+
+	<title>Nicolei Games | VR</title>
+
+	<link rel="icon" href="assets/favicon.png"/>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- for Google -->
+	<meta name="theme-color" content="#333333"/>
+	<meta name="description" content="I am Fernando Nicolei Esperida and I am Indie Game Developer since i was 14 years old. I have uploaded a lot of games in Google Play Store and Apple App Store." />
+	<meta name="keywords" content="nicolei games, bulalord, bulalord extreme, nicolei, tsuperjeep, kuya will the rapgod, rapgod, trending, bilopong, carrot man, play store, google play, app store, free, free games" />
+	<meta name="google-site-verification" content="7O2_tWxadUcojOKy2a0VmyA3xQU1N7U9dpgO9nuj-Ug" />
+	<meta name="author" content="Fernando Nicolei Esperida" />
+	<meta name="copyright" content="Fernando Nicolei Esperida 2017" />
+	<meta name="application-name" content="" />
+
+	<!-- for Facebook -->
+	<meta property="og:title" content="Nicolei Esperida | VR Web View" />
+	<meta property="og:type" content="article" />
+	<meta property="og:image" content="http://nicoleiesperida.me/assets/favicon.png" />
+	<meta property="og:url" content="http://nicoleiesperida.me/html/vr" />
+	<meta property="og:description" content="I am Fernando Nicolei Esperida and I am Indie Game Developer since i was 14 years old. I have uploaded a lot of games in Google Play Store and Apple App Store." />
+
+	<!-- for Twitter -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Nicolei Esperida | VR Web View" />
+	<meta name="twitter:description" content="I am Fernando Nicolei Esperida and I am Indie Game Developer since i was 14 years old. I have uploaded a lot of games in Google Play Store and Apple App Store." />
+	<meta name="twitter:image" content="http://nicoleiesperida.me/assets/favicon.png" />
+
+	<!--CSS-->
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+
+
+	<!--JAVASCRIPT-->
+	<script src="http://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+
+	<!-- <base href="http://nicoleiesperida.me/" target="_blank"> -->
+</head>
+
+<body style="background-color: #333333;">
+  <h1 style="color: white; text-align: center; font-size: 3em; font-family: 'Raleway', sans-serif;">VR WEB VIEW</h1>
+  <!--This creates vr view-->
+  <div id="vrview"></div>
+  <div id="vrview2"></div>
+  <div id="vrview3"></div>
+  <div id="vrview4"></div>
+  <div id="vrview5"></div>
+  <div id="vrview6"></div>
+
+
+
+</body>
+
+<script>
+  window.addEventListener('load', onVrViewLoad)
+  function onVrViewLoad() {
+    var vrView = new VRView.Player('#vrview', {
+      width: '100%',
+      height: 400, //You can change this height
+      preview: '', //TODO ADD PREVIEW IMAGE OPTIONAL
+      image: 'http://nicoleiesperida.me/assets/letran2ndfloor_compressed.jpg', //TODO ADD YOUR 360 IMAGE HERE (4028x4028)
+      is_stereo: true
+    });
+  }
+</script>
+
+<script>
+  window.addEventListener('load', onVrViewLoad)
+  function onVrViewLoad() {
+    var vrView = new VRView.Player('#vrview2', {
+      width: '100%',
+      height: 400,
+      preview: '',
+      image: 'http://nicoleiesperida.me/assets/letran4thfloor_compressed.jpg',
+      is_stereo: true
+    });
+  }
+</script>
+
+<script>
+  window.addEventListener('load', onVrViewLoad)
+  function onVrViewLoad() {
+    var vrView = new VRView.Player('#vrview3', {
+      width: '100%',
+      height: 400,
+      preview: '',
+      image: 'http://nicoleiesperida.me/assets/raxabagoday_compressed.jpg',
+      is_stereo: true
+    });
+  }
+</script>
+
+<script>
+  window.addEventListener('load', onVrViewLoad)
+  function onVrViewLoad() {
+    var vrView = new VRView.Player('#vrview4', {
+      width: '100%',
+      height: 400,
+      preview: '',
+      image: 'http://nicoleiesperida.me/assets/raxabagonight_compressed.jpg',
+      is_stereo: true
+    });
+  }
+</script>
+
+<script>
+  window.addEventListener('load', onVrViewLoad)
+  function onVrViewLoad() {
+    var vrView = new VRView.Player('#vrview5', {
+      width: '100%',
+      height: 400,
+      preview: '',
+      image: 'http://nicoleiesperida.me/assets/raxabagonight2048_compressed.jpg',
+      is_stereo: true
+    });
+  }
+</script>
+
+<script>
+  window.addEventListener('load', onVrViewLoad)
+  function onVrViewLoad() {
+    var vrView = new VRView.Player('#vrview6', {
+      width: '100%',
+      height: 400,
+      preview: '',
+      image: 'http://storage.googleapis.com/vrview/examples/coral.jpg',
+      is_stereo: true
+    });
+  }
+</script>
+
+</html>
