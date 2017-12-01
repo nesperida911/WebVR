@@ -1,8 +1,8 @@
-WebVR
+#WebVR
 
-This project is built with "fullPage.js" & Google's VR WebView.
+##This project is built with "fullPage.js" & Google's VR WebView.
 
-Image must be hosted online and must have 4028x4028 image size.
+##**Image must be hosted online and must have 4028x4028 image size.**
 
 ```javascript
   window.addEventListener('load', onVrViewLoad)
@@ -16,3 +16,5 @@ Image must be hosted online and must have 4028x4028 image size.
     });
   }
 ```
+
+Note: FullPage.js may cause of not moving image up and down or by using Gyroscope Sensor of your phone. But the important here is you get the idea on how i implemented the vr webview in nice look ;) I know you can do better than this ;)
