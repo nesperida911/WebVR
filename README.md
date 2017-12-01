@@ -4,7 +4,7 @@ This project is built with "fullPage.js" & Google's VR WebView.
 
 Image must be hosted online and must have 4028x4028 image size.
 
-<script>
+```javascript
   window.addEventListener('load', onVrViewLoad)
   function onVrViewLoad() {
     var vrView = new VRView.Player('#vrview', {
@@ -15,4 +15,4 @@ Image must be hosted online and must have 4028x4028 image size.
       is_stereo: true
     });
   }
-</script>
+```
